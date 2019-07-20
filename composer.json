@@ -1,0 +1,31 @@
+{
+  "name": "murmal/laravel-messaging",
+  "description": "Messaging for Laravel.",
+  "keywords": ["laravel", "messaging"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Aleksei Tikhonov",
+      "email": "alexiustx@yandex.ru",
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "illuminate/support": "^5.6",
+    "illuminate/database": "^5.6",
+    "illuminate/http": "^5.6",
+  },
+  "autoload": {
+    "psr-4": {
+      "Myrmal\\Messaging\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Myrmal\\Messaging\\ServiceProvider"
+      ]
+    }
+  }
+}
+
